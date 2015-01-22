@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Kholed\Desktop\Hackaton</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="approot/global.json">
+      <publishTime>01/22/2015 15:28:50</publishTime>
+    </File>
+    <File Include="approot/packages/EntityFramework.Migrations/7.0.0-beta1/EntityFramework.Migrations.nuspec">
+      <publishTime>01/21/2015 20:53:30</publishTime>
+    </File>
+    <File Include="approot/packages/EntityFramework.Migrations/7.0.0-beta1/lib/aspnet50/EntityFramework.Migrations.dll">
+      <publishTime>01/21/2015 20:53:30</publishTime>
+    </File>
+    <File Include="approot/packages/EntityFramework.Relational/7.0.0-beta1/EntityFramework.Relational.nuspec">
+      <publishTime>01/21/2015 20:53:30</publishTime>
+    </File>
+    <File Include="approot/packages/EntityFramework.Relational/7.0.0-beta1/lib/aspnet50/EntityFramework.Relational.dll">
+      <publishTime>01/21/2015 20:53:30</publishTime>
+    </File>
+    <File Include="approot/packages/EntityFramework.SqlServer/7.0.0-beta1/EntityFramework.SqlServer.nuspec">
+      <publishTime>01/21/2015 20:53:29</publishTime>
+    </File>
+    <File Include="approot/packages/EntityFramework.SqlServer/7.0.0-beta1/lib/aspnet50/EntityFramework.SqlServer.dll">
+      <publishTime>01/21/2015 20:53:29</publishTime>
+    </File>
+    <File Include="approot/packages/EntityFramework/7.0.0-beta1/EntityFramework.nuspec">
+      <publishTime>01/21/2015 20:53:30</publishTime>
+    </File>
+    <File Include="approot/packages/EntityFramework/7.0.0-beta1/lib/aspnet50/EntityFramework.dll">
+      <publishTime>01/21/2015 20:53:30</publishTime>
+    </File>
+    <File Include="approot/packages/Ix-Async/1.2.3-beta/Ix-Async.nuspec">
+      <publishTime>01/21/2015 20:53:30</publishTime>
+    </File>
+    <File Include="approot/packages/Ix-Async/1.2.3-beta/lib/net45/System.Interactive.Async.dll">
+      <publishTime>01/21/2015 20:53:30</publishTime>
+    </File>
+    <File Include="approot/packages/Kestrel/1.0.0-beta1/Kestrel.nuspec">
+      <publishTime>01/22/2015 15:15:11</publishTime>
+    </File>
+    <File Include="approot/packages/Kestrel/1.0.0-beta1/lib/aspnet50/Kestrel.dll">
+      <publishTime>01/22/2015 15:15:11</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/k.cmd">
+      <publishTime>01/22/2015 09:44:38</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/klr.cmd">
+      <publishTime>01/22/2015 09:44:38</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/klr.exe">
+      <publishTime>01/22/2015 09:44:38</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/klr.host.dll">
+      <publishTime>01/22/2015 09:44:38</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/klr.net45.config">
+      <publishTime>01/22/2015 09:44:38</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/klr.net45.dll">
+      <publishTime>01/22/2015 09:44:38</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/klr.net45.managed.dll">
+      <publishTime>01/22/2015 09:44:38</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/kpm.cmd">
+      <publishTime>01/22/2015 09:44:38</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/lib/Microsoft.Framework.DesignTimeHost/Microsoft.Framework.DesignTimeHost.dll">
+      <publishTime>01/22/2015 09:44:38</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/lib/Microsoft.Framework.PackageManager/Microsoft.Framework.PackageManager.dll">
+      <publishTime>01/22/2015 09:44:39</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/lib/Microsoft.Framework.Project/Microsoft.Framework.Project.dll">
+      <publishTime>01/22/2015 09:44:39</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/Microsoft.CodeAnalysis.CSharp.Desktop.dll">
+      <publishTime>01/22/2015 09:44:39</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>01/22/2015 09:44:39</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/Microsoft.CodeAnalysis.Desktop.dll">
+      <publishTime>01/22/2015 09:44:39</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/Microsoft.CodeAnalysis.dll">
+      <publishTime>01/22/2015 09:44:39</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/Microsoft.Framework.ApplicationHost.dll">
+      <publishTime>01/22/2015 09:44:39</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/Microsoft.Framework.Runtime.dll">
+      <publishTime>01/22/2015 09:44:39</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/Microsoft.Framework.Runtime.Loader.dll">
+      <publishTime>01/22/2015 09:44:39</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/Microsoft.Framework.Runtime.Roslyn.dll">
+      <publishTime>01/22/2015 09:44:39</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/Newtonsoft.Json.dll">
+      <publishTime>01/22/2015 09:44:39</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/System.Collections.Immutable.dll">
+      <publishTime>01/22/2015 09:44:39</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/bin/System.Reflection.Metadata.dll">
+      <publishTime>01/22/2015 09:44:40</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/KRE-CLR-x86.1.0.0-beta1.nupkg">
+      <publishTime>01/22/2015 09:44:40</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/KRE-CLR-x86.1.0.0-beta1.nupkg.sha512">
+      <publishTime>01/22/2015 09:44:40</publishTime>
+    </File>
+    <File Include="approot/packages/KRE-CLR-x86.1.0.0-beta1/KRE-CLR-x86.nuspec">
+      <publishTime>01/22/2015 09:44:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Diagnostics.Entity/7.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Diagnostics.Entity.dll">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Diagnostics.Entity/7.0.0-beta1/Microsoft.AspNet.Diagnostics.Entity.nuspec">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Diagnostics/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Diagnostics.dll">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Diagnostics/1.0.0-beta1/Microsoft.AspNet.Diagnostics.nuspec">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.FeatureModel/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.FeatureModel.dll">
+      <publishTime>01/21/2015 20:53:32</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.FeatureModel/1.0.0-beta1/Microsoft.AspNet.FeatureModel.nuspec">
+      <publishTime>01/21/2015 20:53:32</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.FileSystems/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.FileSystems.dll">
+      <publishTime>01/21/2015 20:53:35</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.FileSystems/1.0.0-beta1/Microsoft.AspNet.FileSystems.nuspec">
+      <publishTime>01/21/2015 20:53:35</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Hosting/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Hosting.dll">
+      <publishTime>01/21/2015 20:53:32</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Hosting/1.0.0-beta1/Microsoft.AspNet.Hosting.nuspec">
+      <publishTime>01/21/2015 20:53:32</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Http.Extensions/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Http.Extensions.dll">
+      <publishTime>01/21/2015 20:53:36</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Http.Extensions/1.0.0-beta1/Microsoft.AspNet.Http.Extensions.nuspec">
+      <publishTime>01/21/2015 20:53:37</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Http/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Http.dll">
+      <publishTime>01/21/2015 20:53:33</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Http/1.0.0-beta1/Microsoft.AspNet.Http.nuspec">
+      <publishTime>01/21/2015 20:53:33</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.HttpFeature/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.HttpFeature.dll">
+      <publishTime>01/21/2015 20:53:33</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.HttpFeature/1.0.0-beta1/Microsoft.AspNet.HttpFeature.nuspec">
+      <publishTime>01/21/2015 20:53:33</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Identity.EntityFramework/3.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Identity.EntityFramework/3.0.0-beta1/Microsoft.AspNet.Identity.EntityFramework.nuspec">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Identity/3.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Identity.dll">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Identity/3.0.0-beta1/Microsoft.AspNet.Identity.nuspec">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Loader.IIS.Interop/1.0.0-beta1/InteropAssemblies/amd64/Microsoft.AspNet.Loader.IIS.Interop.dll">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Loader.IIS.Interop/1.0.0-beta1/InteropAssemblies/x86/Microsoft.AspNet.Loader.IIS.Interop.dll">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Loader.IIS.Interop/1.0.0-beta1/Microsoft.AspNet.Loader.IIS.Interop.nuspec">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Loader.IIS/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Loader.IIS.dll">
+      <publishTime>01/21/2015 20:53:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Loader.IIS/1.0.0-beta1/Microsoft.AspNet.Loader.IIS.nuspec">
+      <publishTime>01/21/2015 20:53:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Mvc.Core/6.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Mvc.Core.dll">
+      <publishTime>01/21/2015 20:53:35</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Mvc.Core/6.0.0-beta1/Microsoft.AspNet.Mvc.Core.nuspec">
+      <publishTime>01/21/2015 20:53:35</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Mvc.HeaderValueAbstractions/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Mvc.HeaderValueAbstractions.dll">
+      <publishTime>01/21/2015 20:53:35</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Mvc.HeaderValueAbstractions/1.0.0-beta1/Microsoft.AspNet.Mvc.HeaderValueAbstractions.nuspec">
+      <publishTime>01/21/2015 20:53:35</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Mvc.ModelBinding/6.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Mvc.ModelBinding.dll">
+      <publishTime>01/21/2015 20:53:35</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Mvc.ModelBinding/6.0.0-beta1/Microsoft.AspNet.Mvc.ModelBinding.nuspec">
+      <publishTime>01/21/2015 20:53:36</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Mvc.Razor.Host/6.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Mvc.Razor.Host.dll">
+      <publishTime>01/21/2015 20:53:37</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Mvc.Razor.Host/6.0.0-beta1/Microsoft.AspNet.Mvc.Razor.Host.nuspec">
+      <publishTime>01/21/2015 20:53:37</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Mvc.Razor/6.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Mvc.Razor.dll">
+      <publishTime>01/21/2015 20:53:35</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Mvc.Razor/6.0.0-beta1/Microsoft.AspNet.Mvc.Razor.nuspec">
+      <publishTime>01/21/2015 20:53:35</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Mvc/6.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Mvc.dll">
+      <publishTime>01/21/2015 20:53:34</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Mvc/6.0.0-beta1/Microsoft.AspNet.Mvc.nuspec">
+      <publishTime>01/21/2015 20:53:34</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.PipelineCore/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.PipelineCore.dll">
+      <publishTime>01/21/2015 20:53:33</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.PipelineCore/1.0.0-beta1/Microsoft.AspNet.PipelineCore.nuspec">
+      <publishTime>01/21/2015 20:53:33</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Razor.Runtime/4.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Razor.Runtime.dll">
+      <publishTime>01/21/2015 20:53:37</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Razor.Runtime/4.0.0-beta1/Microsoft.AspNet.Razor.Runtime.nuspec">
+      <publishTime>01/21/2015 20:53:37</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Razor/4.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Razor.dll">
+      <publishTime>01/21/2015 20:53:37</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Razor/4.0.0-beta1/Microsoft.AspNet.Razor.nuspec">
+      <publishTime>01/21/2015 20:53:37</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.RequestContainer/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.RequestContainer.dll">
+      <publishTime>01/21/2015 20:53:36</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.RequestContainer/1.0.0-beta1/Microsoft.AspNet.RequestContainer.nuspec">
+      <publishTime>01/21/2015 20:53:36</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Routing/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Routing.dll">
+      <publishTime>01/21/2015 20:53:36</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Routing/1.0.0-beta1/Microsoft.AspNet.Routing.nuspec">
+      <publishTime>01/21/2015 20:53:36</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Security.Cookies/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Security.Cookies.dll">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Security.Cookies/1.0.0-beta1/Microsoft.AspNet.Security.Cookies.nuspec">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Security.DataProtection/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Security.DataProtection.dll">
+      <publishTime>01/21/2015 20:53:34</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Security.DataProtection/1.0.0-beta1/Microsoft.AspNet.Security.DataProtection.nuspec">
+      <publishTime>01/21/2015 20:53:34</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Security/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Security.dll">
+      <publishTime>01/21/2015 20:53:37</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Security/1.0.0-beta1/Microsoft.AspNet.Security.nuspec">
+      <publishTime>01/21/2015 20:53:37</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Server.IIS/1.0.0-beta1/Microsoft.AspNet.Server.IIS.nuspec">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Server.Kestrel/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Server.Kestrel.dll">
+      <publishTime>01/22/2015 15:15:11</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Server.Kestrel/1.0.0-beta1/Microsoft.AspNet.Server.Kestrel.nuspec">
+      <publishTime>01/22/2015 15:15:11</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Server.Kestrel/1.0.0-beta1/native/darwin/universal/libuv.dylib">
+      <publishTime>01/22/2015 15:15:11</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Server.Kestrel/1.0.0-beta1/native/windows/amd64/libuv.dll">
+      <publishTime>01/22/2015 15:15:11</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Server.Kestrel/1.0.0-beta1/native/windows/x86/libuv.dll">
+      <publishTime>01/22/2015 15:15:11</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Server.WebListener/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.Server.WebListener.dll">
+      <publishTime>01/21/2015 20:53:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.Server.WebListener/1.0.0-beta1/Microsoft.AspNet.Server.WebListener.nuspec">
+      <publishTime>01/21/2015 20:53:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.StaticFiles/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.StaticFiles.dll">
+      <publishTime>01/21/2015 20:53:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.StaticFiles/1.0.0-beta1/Microsoft.AspNet.StaticFiles.nuspec">
+      <publishTime>01/21/2015 20:53:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.WebUtilities/1.0.0-beta1/lib/aspnet50/Microsoft.AspNet.WebUtilities.dll">
+      <publishTime>01/21/2015 20:53:34</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.AspNet.WebUtilities/1.0.0-beta1/Microsoft.AspNet.WebUtilities.nuspec">
+      <publishTime>01/21/2015 20:53:34</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.CodeAnalysis.Common/1.0.0-beta1-20141031-01/lib/net45/Microsoft.CodeAnalysis.Desktop.dll">
+      <publishTime>01/21/2015 20:53:38</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.CodeAnalysis.Common/1.0.0-beta1-20141031-01/lib/net45/Microsoft.CodeAnalysis.dll">
+      <publishTime>01/21/2015 20:53:38</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.CodeAnalysis.Common/1.0.0-beta1-20141031-01/Microsoft.CodeAnalysis.Common.nuspec">
+      <publishTime>01/21/2015 20:53:38</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.CodeAnalysis.CSharp/1.0.0-beta1-20141031-01/lib/net45/Microsoft.CodeAnalysis.CSharp.Desktop.dll">
+      <publishTime>01/21/2015 20:53:38</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.CodeAnalysis.CSharp/1.0.0-beta1-20141031-01/lib/net45/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>01/21/2015 20:53:38</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.CodeAnalysis.CSharp/1.0.0-beta1-20141031-01/Microsoft.CodeAnalysis.CSharp.nuspec">
+      <publishTime>01/21/2015 20:53:38</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.DataAnnotations/1.0.0-beta1/lib/net45/Microsoft.DataAnnotations.dll">
+      <publishTime>01/21/2015 20:53:36</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.DataAnnotations/1.0.0-beta1/Microsoft.DataAnnotations.nuspec">
+      <publishTime>01/21/2015 20:53:36</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.CodeGeneration.Core/1.0.0-beta1/lib/aspnet50/Microsoft.Framework.CodeGeneration.Core.dll">
+      <publishTime>01/21/2015 20:53:42</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.CodeGeneration.Core/1.0.0-beta1/Microsoft.Framework.CodeGeneration.Core.nuspec">
+      <publishTime>01/21/2015 20:53:42</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.CodeGeneration.EntityFramework/1.0.0-beta1/lib/aspnet50/Microsoft.Framework.CodeGeneration.EntityFramework.dll">
+      <publishTime>01/21/2015 20:53:43</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.CodeGeneration.EntityFramework/1.0.0-beta1/Microsoft.Framework.CodeGeneration.EntityFramework.nuspec">
+      <publishTime>01/21/2015 20:53:43</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.CodeGeneration.Templating/1.0.0-beta1/lib/aspnet50/Microsoft.Framework.CodeGeneration.Templating.dll">
+      <publishTime>01/21/2015 20:53:43</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.CodeGeneration.Templating/1.0.0-beta1/Microsoft.Framework.CodeGeneration.Templating.nuspec">
+      <publishTime>01/21/2015 20:53:43</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.CodeGeneration/1.0.0-beta1/lib/aspnet50/Microsoft.Framework.CodeGeneration.dll">
+      <publishTime>01/21/2015 20:53:42</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.CodeGeneration/1.0.0-beta1/Microsoft.Framework.CodeGeneration.nuspec">
+      <publishTime>01/21/2015 20:53:42</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.CodeGenerators.Mvc/1.0.0-beta1/lib/aspnet50/Microsoft.Framework.CodeGenerators.Mvc.dll">
+      <publishTime>01/21/2015 20:53:41</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.CodeGenerators.Mvc/1.0.0-beta1/Microsoft.Framework.CodeGenerators.Mvc.nuspec">
+      <publishTime>01/21/2015 20:53:41</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.CommandLineUtils/1.0.0-beta1/lib/net45/Microsoft.Framework.CommandLineUtils.dll">
+      <publishTime>01/21/2015 20:53:42</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.CommandLineUtils/1.0.0-beta1/Microsoft.Framework.CommandLineUtils.nuspec">
+      <publishTime>01/21/2015 20:53:42</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.ConfigurationModel.Json/1.0.0-beta1/lib/aspnet50/Microsoft.Framework.ConfigurationModel.Json.dll">
+      <publishTime>01/21/2015 20:53:41</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.ConfigurationModel.Json/1.0.0-beta1/Microsoft.Framework.ConfigurationModel.Json.nuspec">
+      <publishTime>01/21/2015 20:53:41</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.ConfigurationModel/1.0.0-beta1/lib/aspnet50/Microsoft.Framework.ConfigurationModel.dll">
+      <publishTime>01/21/2015 20:53:31</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.ConfigurationModel/1.0.0-beta1/Microsoft.Framework.ConfigurationModel.nuspec">
+      <publishTime>01/21/2015 20:53:31</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.DependencyInjection/1.0.0-beta1/lib/aspnet50/Microsoft.Framework.DependencyInjection.dll">
+      <publishTime>01/21/2015 20:53:31</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.DependencyInjection/1.0.0-beta1/Microsoft.Framework.DependencyInjection.nuspec">
+      <publishTime>01/21/2015 20:53:31</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Logging.Console/1.0.0-beta1/lib/aspnet50/Microsoft.Framework.Logging.Console.dll">
+      <publishTime>01/21/2015 20:53:44</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Logging.Console/1.0.0-beta1/Microsoft.Framework.Logging.Console.nuspec">
+      <publishTime>01/21/2015 20:53:44</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Logging.Interfaces/1.0.0-beta1/lib/aspnet50/Microsoft.Framework.Logging.Interfaces.dll">
+      <publishTime>01/21/2015 20:53:44</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Logging.Interfaces/1.0.0-beta1/Microsoft.Framework.Logging.Interfaces.nuspec">
+      <publishTime>01/21/2015 20:53:44</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Logging/1.0.0-beta1/lib/aspnet50/Microsoft.Framework.Logging.dll">
+      <publishTime>01/21/2015 20:53:43</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Logging/1.0.0-beta1/Microsoft.Framework.Logging.nuspec">
+      <publishTime>01/21/2015 20:53:44</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.OptionsModel/1.0.0-beta1/lib/aspnet50/Microsoft.Framework.OptionsModel.dll">
+      <publishTime>01/21/2015 20:53:31</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.OptionsModel/1.0.0-beta1/Microsoft.Framework.OptionsModel.nuspec">
+      <publishTime>01/21/2015 20:53:31</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Runtime.Interfaces/1.0.0-beta1/lib/net45/Microsoft.Framework.Runtime.Interfaces.dll">
+      <publishTime>01/21/2015 20:53:33</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Runtime.Interfaces/1.0.0-beta1/Microsoft.Framework.Runtime.Interfaces.nuspec">
+      <publishTime>01/21/2015 20:53:33</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Runtime.Loader/1.0.0-beta1/lib/net45/Microsoft.Framework.Runtime.Loader.dll">
+      <publishTime>01/21/2015 20:53:43</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Runtime.Loader/1.0.0-beta1/Microsoft.Framework.Runtime.Loader.nuspec">
+      <publishTime>01/21/2015 20:53:43</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Runtime.Roslyn/1.0.0-beta1/lib/net45/Microsoft.Framework.Runtime.Roslyn.dll">
+      <publishTime>01/21/2015 20:53:43</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Runtime.Roslyn/1.0.0-beta1/Microsoft.Framework.Runtime.Roslyn.nuspec">
+      <publishTime>01/21/2015 20:53:43</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Runtime/1.0.0-beta1/lib/net45/Microsoft.Framework.Runtime.dll">
+      <publishTime>01/21/2015 20:53:43</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Framework.Runtime/1.0.0-beta1/Microsoft.Framework.Runtime.nuspec">
+      <publishTime>01/21/2015 20:53:43</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Net.Http.Server/1.0.0-beta1/lib/aspnet50/Microsoft.Net.Http.Server.dll">
+      <publishTime>01/21/2015 20:53:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Net.Http.Server/1.0.0-beta1/Microsoft.Net.Http.Server.nuspec">
+      <publishTime>01/21/2015 20:53:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Net.WebSocketAbstractions/1.0.0-beta1/lib/net45/Microsoft.Net.WebSocketAbstractions.dll">
+      <publishTime>01/21/2015 20:53:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Net.WebSocketAbstractions/1.0.0-beta1/Microsoft.Net.WebSocketAbstractions.nuspec">
+      <publishTime>01/21/2015 20:53:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Net.WebSockets/1.0.0-beta1/lib/net45/Microsoft.Net.WebSockets.dll">
+      <publishTime>01/21/2015 20:53:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.Net.WebSockets/1.0.0-beta1/Microsoft.Net.WebSockets.nuspec">
+      <publishTime>01/21/2015 20:53:40</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.VisualStudio.Web.BrowserLink.Loader/14.0.0-beta1/lib/aspnet50/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll">
+      <publishTime>01/21/2015 20:53:44</publishTime>
+    </File>
+    <File Include="approot/packages/Microsoft.VisualStudio.Web.BrowserLink.Loader/14.0.0-beta1/Microsoft.VisualStudio.Web.BrowserLink.Loader.nuspec">
+      <publishTime>01/21/2015 20:53:44</publishTime>
+    </File>
+    <File Include="approot/packages/Newtonsoft.Json/6.0.6/lib/net45/Newtonsoft.Json.dll">
+      <publishTime>01/21/2015 20:53:34</publishTime>
+    </File>
+    <File Include="approot/packages/Newtonsoft.Json/6.0.6/Newtonsoft.Json.nuspec">
+      <publishTime>01/21/2015 20:53:34</publishTime>
+    </File>
+    <File Include="approot/packages/Remotion.Linq/1.15.15.0/lib/portable-net45+wp80+wpa81+win/Remotion.Linq.dll">
+      <publishTime>01/21/2015 20:53:31</publishTime>
+    </File>
+    <File Include="approot/packages/Remotion.Linq/1.15.15.0/Remotion.Linq.nuspec">
+      <publishTime>01/21/2015 20:53:31</publishTime>
+    </File>
+    <File Include="approot/packages/System.Collections.Immutable/1.1.32-beta/lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll">
+      <publishTime>01/21/2015 20:53:31</publishTime>
+    </File>
+    <File Include="approot/packages/System.Collections.Immutable/1.1.32-beta/System.Collections.Immutable.nuspec">
+      <publishTime>01/21/2015 20:53:31</publishTime>
+    </File>
+    <File Include="approot/packages/System.ComponentModel.Annotations/4.0.10-beta-22231/lib/contract/System.ComponentModel.Annotations.dll">
+      <publishTime>01/21/2015 20:53:36</publishTime>
+    </File>
+    <File Include="approot/packages/System.ComponentModel.Annotations/4.0.10-beta-22231/System.ComponentModel.Annotations.nuspec">
+      <publishTime>01/21/2015 20:53:36</publishTime>
+    </File>
+    <File Include="approot/packages/System.ComponentModel/4.0.0-beta-22231/lib/contract/System.ComponentModel.dll">
+      <publishTime>01/21/2015 20:53:36</publishTime>
+    </File>
+    <File Include="approot/packages/System.ComponentModel/4.0.0-beta-22231/System.ComponentModel.nuspec">
+      <publishTime>01/21/2015 20:53:36</publishTime>
+    </File>
+    <File Include="approot/packages/System.Data.Common/1.0.0-beta1/lib/aspnet50/System.Data.Common.dll">
+      <publishTime>01/21/2015 20:53:30</publishTime>
+    </File>
+    <File Include="approot/packages/System.Data.Common/1.0.0-beta1/System.Data.Common.nuspec">
+      <publishTime>01/21/2015 20:53:30</publishTime>
+    </File>
+    <File Include="approot/packages/System.Data.SqlClient/1.0.0-beta1/lib/net45/System.Data.SqlClient.dll">
+      <publishTime>01/21/2015 20:53:32</publishTime>
+    </File>
+    <File Include="approot/packages/System.Data.SqlClient/1.0.0-beta1/redist/x64/SNI.dll">
+      <publishTime>01/21/2015 20:53:32</publishTime>
+    </File>
+    <File Include="approot/packages/System.Data.SqlClient/1.0.0-beta1/redist/x86/SNI.dll">
+      <publishTime>01/21/2015 20:53:32</publishTime>
+    </File>
+    <File Include="approot/packages/System.Data.SqlClient/1.0.0-beta1/System.Data.SqlClient.nuspec">
+      <publishTime>01/21/2015 20:53:32</publishTime>
+    </File>
+    <File Include="approot/packages/System.Reflection.Metadata/1.0.17-beta/lib/portable-net45+win8/System.Reflection.Metadata.dll">
+      <publishTime>01/21/2015 20:53:38</publishTime>
+    </File>
+    <File Include="approot/packages/System.Reflection.Metadata/1.0.17-beta/System.Reflection.Metadata.nuspec">
+      <publishTime>01/21/2015 20:53:38</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/bower.json">
+      <publishTime>01/22/2015 11:42:19</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Controllers/HomeController.cs">
+      <publishTime>01/22/2015 13:12:50</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Controllers/PatientController.cs">
+      <publishTime>01/22/2015 09:35:43</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Models/IPatientRepository.cs">
+      <publishTime>01/21/2015 22:42:00</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Models/PatientDataItem.cs">
+      <publishTime>01/22/2015 09:36:19</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Models/PatientRepository.cs">
+      <publishTime>01/22/2015 09:36:03</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/npm-debug.log">
+      <publishTime>01/22/2015 14:01:49</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/project.json">
+      <publishTime>01/22/2015 15:28:50</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Project_Readme.html">
+      <publishTime>01/21/2015 22:04:29</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Properties/PublishProfiles/ff.pubxml">
+      <publishTime>01/22/2015 09:44:35</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Startup.cs">
+      <publishTime>01/22/2015 14:01:48</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Views/Home/About.cshtml">
+      <publishTime>01/22/2015 11:11:47</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Views/Home/Contact.cshtml">
+      <publishTime>01/22/2015 11:11:47</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Views/Home/Index.cshtml">
+      <publishTime>01/22/2015 12:00:29</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Views/Shared/Error.cshtml">
+      <publishTime>01/22/2015 11:11:47</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Views/Shared/_Layout.cshtml">
+      <publishTime>01/22/2015 11:11:47</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Views/Shared/_LoginPartial.cshtml">
+      <publishTime>01/22/2015 11:40:57</publishTime>
+    </File>
+    <File Include="approot/src/DocktersApi/Views/_ViewStart.cshtml">
+      <publishTime>01/22/2015 11:42:09</publishTime>
+    </File>
+    <File Include="ef.cmd">
+      <publishTime>01/22/2015 14:03:05</publishTime>
+    </File>
+    <File Include="gen.cmd">
+      <publishTime>01/22/2015 14:03:05</publishTime>
+    </File>
+    <File Include="kestrel.cmd">
+      <publishTime>01/22/2015 15:28:50</publishTime>
+    </File>
+    <File Include="web.cmd">
+      <publishTime>01/22/2015 15:28:50</publishTime>
+    </File>
+    <File Include="wwwroot/bin/AspNet.Loader.dll">
+      <publishTime>01/21/2015 20:53:39</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>10/29/2014 13:11:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/css/bootstrap-theme.css">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/css/bootstrap-theme.min.css">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/css/bootstrap.css">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/css/bootstrap.min.css">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/js/bootstrap.js">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/js/bootstrap.min.js">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/jquery.validate.js">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/js/jquery.js">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/js/jquery.min.js">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/js/jquery.min.map">
+      <publishTime>01/22/2015 11:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/web.config">
+      <publishTime>01/22/2015 15:28:50</publishTime>
+    </File>
+    <File Include="wwwroot/_references.js">
+      <publishTime>01/22/2015 11:48:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

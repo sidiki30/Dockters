@@ -1,0 +1,64 @@
+﻿@model WebAPI.Models.PatientDataItem
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Person</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Age)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Age)
+            @Html.ValidationMessageFor(model => model.Age)
+        </div>
+
+        <p>
+            <input type="button" id="btnSubmit" value="Create(Json,Api)" />
+            <input id="submit" type="submit" value="Create(ActionResult,Api)" />
+        </p>
+    </fieldset>
+}
+<script lang="ja" type="text/javascript">
+    $(document).ready(function () {
+        $("#btnSubmit").click(function () {
+            var name = $("#Name").val();
+            var age = $("#Age").val();
+            $.ajax({
+                url: "http://localhost:50224//api/patient",
+                type: "Post",
+                data: JSON.stringify([name, age,]), //{ Name: name, Address: address, DOB: dob },
+                contentType: 'application/json; charset=utf-8',
+                success: function (data) {
+                    alert('Created Successfully');
+                    window.location.href = "../Index";
+                },
+                error: function () { alert('error'); }
+            });
+        });
+    });
+</script>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@*@section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }*@
